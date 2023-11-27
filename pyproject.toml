@@ -18,6 +18,7 @@ ipykernel = "^6.26.0"
 pygame = "^2.5.2"
 moviepy = "^1.0.3"
 ffmpeg = "^1.4"
+jupyter-black = "^0.3.4"
 
 
 [build-system]
