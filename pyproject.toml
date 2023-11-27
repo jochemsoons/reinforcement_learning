@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "reinforcement-learning"
+version = "0.1.0"
+description = ""
+authors = ["Jochem Soons <jochem.soons@k>"]
+readme = "README.md"
+packages = [{include = "reinforcement_learning"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+plotly = "^5.18.0"
+matplotlib = "^3.8.2"
+torch = "^2.1.1"
+gym = "^0.26.2"
+numpy = "^1.26.2"
+gymnasium = "^0.29.1"
+ipykernel = "^6.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
